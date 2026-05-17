@@ -1,4 +1,4 @@
-import HomeImage from "../assets/images/dog_img1.jpg";
+import HomeImage from "../assets/images/html.png";
 import style from "../components/Home.module.css";
 const headingColor={
     color:"red",
@@ -15,19 +15,22 @@ const Home = () =>{
     }
     return(
         <>
-        <section id="home" className="mt-4 mb-3">
+        <section id="home" className="mb-3" style={{backgroundColor:'#4f5ad6'}}>
         <div className="container">
             <div className="row">
-                <div className="col-md-6 p-4">
-                    <h1>Welcome To React Home Component</h1>
-                    <h2 style={{color:"blue",backgroundColor:"yellow",fontSize:"50px"}}> Its inline Css</h2>
-                    <h3 style={headingColor}>Hello</h3>
-                    <h5 className={style.heading5}> India won </h5>
-                    <p style={paraColor}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ea sapiente illo labore libero esse commodi illum similique officia! Veniam eum neque sint tempora esse ab corporis quidem, asperiores iste!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias culpa fugit quisquam dolor ipsa repellendus officia numquam obcaecati at quibusdam vitae quo aperiam mollitia sint blanditiis quia modi, repellat asperiores?</p>
-                </div>
-                <div className="col-md-6">
-                    <img className="img-fluid" src={HomeImage} alt="HomeImage"/>
+                <div className="col-md-12 p-4">
+                    <h1 className={style.h1}> Chandani Atraye </h1>
+                    <h4 className={style.h4}> Frontend Developer | React.js Developer</h4>
+                    <div className={style.span}><span><a className ="text-white" href="chandaniatraye5010@gmail.com">chandaniatraye5010@gmail.com</a></span>
+                    <span> |</span>
+                    <span> <a className ="text-white" href="tel:+91XXXXXXXXXX"> +91XXXXXXXXXX</a></span>
+                    </div>
+                    
+                    {/* <h2 style={{color:"blue",backgroundColor:"yellow",fontSize:"50px"}}> Its inline Css</h2> */}
+                    {/* <h3 style={headingColor}>Hello (internal css)</h3> */}
+                    {/* <h5 className={style.heading5}> India won ( external css)</h5> */ } 
+                    {/* <p style={paraColor}>(uing function) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ea sapiente illo labore libero esse commodi illum similique officia! Veniam eum neque sint tempora esse ab corporis quidem, asperiores iste!</p> */}
+                    
                 </div>
             </div>
         </div>

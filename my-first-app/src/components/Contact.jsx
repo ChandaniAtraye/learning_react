@@ -5,7 +5,7 @@ const Contact = () => {
             <form>
                 <div className="container">
                     <div className="row">
-                        <h3 className=" contact_heading mt-3 mb-3"> Contact Us</h3>
+                        <h3 className=" contact_heading mt-3 mb-3"> Contact</h3>
                         
                         <div className="col-md-6 border border-dark info_form">
                             <div className="row p-3">

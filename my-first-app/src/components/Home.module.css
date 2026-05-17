@@ -1,4 +1,13 @@
-.heading5{
+/* .heading5{
     font-size:60px;
     color:cornflowerblue;
-}
+} */
+ .h1,.h4{
+    text-align:center;
+    color:white;
+ }
+ .span{
+
+    text-align:center;
+    color:white;
+ }
