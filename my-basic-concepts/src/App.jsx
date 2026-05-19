@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import FunctionExample from './components/FunctionExample'
-import Function_Example from './components/Function_Example'
+import Events_Example from './components/Events_Example'
+import UserCard from './components/ObjectExample'
+
 
 
 
@@ -12,8 +14,10 @@ function App() {
 
   return (
     <>
-    <FunctionExample/>
-    <Function_Example/>
+    {/* <FunctionExample/> */}
+    {/* <Events_Example/> */}
+    <UserCard/>
+ 
   </>
   )
 }
