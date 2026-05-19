@@ -15,7 +15,7 @@ const Home = () =>{
     }
     return(
         <>
-        <section id="home" className="mb-3" style={{backgroundColor:'#4f5ad6'}}>
+        <section id="home" className="mb-3" style={{background:"linear-Gradient(to right,#457b9d,#5fa8d3)"}}>
         <div className="container">
             <div className="row">
                 <div className="col-md-12 p-4">
