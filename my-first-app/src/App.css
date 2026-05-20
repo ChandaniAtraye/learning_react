@@ -1,0 +1,12 @@
+#footer{
+    background:#0b2f66;
+    color:white;
+
+}
+#education{
+    background-color:#f8f9fa;
+    border: 1px solid #dbeafe;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}

@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <nav id= "header" className="navbar navbar-expand-lg  sticky-top shadow-sm p-2" style={{backgroundColor:"#1d3557",fontSize:22}}  data-bs-theme="dark">
+      <nav id= "header" className="navbar navbar-expand-lg  sticky-top shadow-sm p-2" style={{background:"linear-Gradient(to right,#0f4c81,#1e3a8a)",fontSize:22}}  data-bs-theme="dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">My Resume</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,17 +17,19 @@ const Header = () => {
                 <a className="nav-link active" aria-current="page" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#education">Education</a>
-              </li>
-              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
               </li>
+               <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#education">Education</a>
+              </li>
+              
               {/* <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="#services">Services</a>
               </li> */}
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
-              </li>
+             
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#contact">Contact </a>
               </li>
