@@ -3,7 +3,7 @@
 const Education = () => {
     return (
         <>
-            <section id="education" className="mt-4 mb-3 " style={{}}>
+            <section id="education" className="mt-4 mb-3 ">
                 <div className="container">
                     <div className="row g-4">
                          <h3 className="mb-4"> Education </h3>
