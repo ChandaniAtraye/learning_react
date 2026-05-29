@@ -2,6 +2,8 @@ import MultiInputFileHandling from "./components/MultiInputFileHandling"
 import UseEffectCounter from "./components/UseEffectCounter"
 // import UseEffectProductListApi from "./components/UseEffectProductListApi"
 import UseEffectUserListApi from "./components/UseEffectUserListApi"
+import UseRefFormHandling from "./components/UseRefFormHandling"
+import UseRefWithInput from "./components/UseRefWithInput"
 import UseStateCounter from "./components/UseStateCounter"
 import UseStateInputExample from "./components/UseStateInputExample"
 import UseStateSimpleFormHandling from "./components/UseStateSimpleFormHandling"
@@ -12,7 +14,7 @@ function App() {
 
   return (
     <>
-   {/* <h4> Welcome to UseState and Use Effect management</h4> */}
+   <h4> Welcome to UseState and Use Effect management</h4>
     {/* <UseStateCounter/>
     <UseStateInputExample/> */}
     {/* <UseEffectCounter/> */}
@@ -25,7 +27,9 @@ function App() {
 
     </div>
      */}
-     <MultiInputFileHandling/>
+     {/* <MultiInputFileHandling/> */}
+     {/* <UseRefWithInput/> */}
+     <UseRefFormHandling/>
     </>
   )
 }
