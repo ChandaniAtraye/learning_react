@@ -18,8 +18,8 @@ const Home = () =>{
         <section id="home" className="mb-3" style={{background:"linear-Gradient(to right,#1d9bf0,#4338ca)"}}>
         <div className="container">
             <div className="row">
-                <div className="col-md-12 p-4">
-                    <h1 className={style.h1}> Chandani Atraye </h1>
+                <div className="col-md-6 p-4">
+                    <h1 className={style.h1}> Hi ,Chandani Atraye </h1>
                     <h4 className={style.h4}> Frontend Developer | React.js Developer</h4>
                     <div className={style.span}><span><a className ="text-white" href="chandaniatraye5010@gmail.com">chandaniatraye5010@gmail.com</a></span>
                     <span> |</span>

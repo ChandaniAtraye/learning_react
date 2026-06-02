@@ -3,7 +3,7 @@ const Header = () => {
     <>
       <nav id= "header" className="navbar navbar-expand-lg  sticky-top shadow-sm p-2" style={{background:"linear-Gradient(to right,#0f4c81,#1e3a8a)",fontSize:22}}  data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">My Resume</a>
+          <a className="navbar-brand" href="#">My Portfolio</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
