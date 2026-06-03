@@ -1,3 +1,5 @@
+import AxiosExampleCreateNewUser from "./components/AxiosExampleCreateNewUser"
+import AxiosFetchDataExample from "./components/AxiosFetchDataExample"
 import CookiesExample from "./components/CookiesExample"
 import SessionDemo from "./components/SessionDemo"
 import SessionLogout from "./components/SessionLogout"
@@ -9,12 +11,14 @@ function App() {
  
   return (
     <>
-     <h1> Hello its React </h1>
+     {/* <h1> Hello its React </h1> */}
      {/* <TodoArrayLocalStorage/> */}
      {/* <TodoCrud/> */}
      {/* <SessionDemo/> */}
      {/* <SessionLogout/> */}
-     <CookiesExample/>
+     {/* <CookiesExample/> */}
+     {/* <AxiosFetchDataExample/> */}
+     <AxiosExampleCreateNewUser/>
     </>
   )
 }
