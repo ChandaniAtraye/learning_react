@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "CA",
+      "email": "ca@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Chandani",
+      "email": "chandani@gmail.com"
+    },
+    {
+      "id": "xXwIcirgAE0",
+      "name": "sakshi",
+      "email": "sakshi@gmail.com"
+    },
+    {
+      "id": "sReYIf_qxfE",
+      "name": "jhghgkh",
+      "email": "uuyiu"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

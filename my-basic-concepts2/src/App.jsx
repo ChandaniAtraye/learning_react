@@ -1,6 +1,7 @@
 import AxiosExampleCreateNewUser from "./components/AxiosExampleCreateNewUser"
 import AxiosFetchDataExample from "./components/AxiosFetchDataExample"
 import CookiesExample from "./components/CookiesExample"
+import CrudAxios from "./components/CrudAxios"
 import SessionDemo from "./components/SessionDemo"
 import SessionLogout from "./components/SessionLogout"
 import TodoArrayLocalStorage from "./components/TodoArrayLocalStorage"
@@ -18,7 +19,8 @@ function App() {
      {/* <SessionLogout/> */}
      {/* <CookiesExample/> */}
      {/* <AxiosFetchDataExample/> */}
-     <AxiosExampleCreateNewUser/>
+     {/* <AxiosExampleCreateNewUser/> */}
+     <CrudAxios/>
     </>
   )
 }
