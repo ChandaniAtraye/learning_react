@@ -6,6 +6,9 @@ import SessionDemo from "./components/SessionDemo"
 import SessionLogout from "./components/SessionLogout"
 import TodoArrayLocalStorage from "./components/TodoArrayLocalStorage"
 import TodoCrud from "./components/TodoCrud"
+import CounterUseReducer from "./components/UseReducer"
+import WithoutUseMemo from "./components/WithoutUseMemo"
+import WithUseMemo from "./components/WithUseMemo"
 
 
 function App() {
@@ -20,7 +23,10 @@ function App() {
      {/* <CookiesExample/> */}
      {/* <AxiosFetchDataExample/> */}
      {/* <AxiosExampleCreateNewUser/> */}
-     <CrudAxios/>
+     {/* <CrudAxios/> */}
+     {/* <WithoutUseMemo/> */}
+     {/* <WithUseMemo/> */}
+     <CounterUseReducer/>
     </>
   )
 }
