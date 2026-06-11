@@ -11,6 +11,10 @@ import CounterUseReducer from "./components/UseReducer"
 import WithoutUseMemo from "./components/WithoutUseMemo"
 import WithUseMemo from "./components/WithUseMemo"
 import MessageProvider from "./components2/MessageProvider"
+import Counter1 from "./components/Counter1"
+import Counter2 from "./components/Counter2"
+import Light from "./components/Light"
+import Fan from "./components/Fan"
 
 
 function App() {
@@ -31,9 +35,17 @@ function App() {
      {/* <CounterUseReducer/> */}
      {/* <h1>Using Prop drilling</h1> */}
      {/* <Child message = "Hello " /> */}
-     <MessageProvider>
+     {/* <MessageProvider>
       <Child/>
-     </MessageProvider>
+     </MessageProvider> */}
+     {/* <Counter1/>
+     <Counter2/> */}
+     <div className="container">
+      <h2> Custom Hook Example</h2>
+      <Light/>
+      <hr className='w-50'/>
+      <Fan/>
+     </div>
     </>
   )
 }
